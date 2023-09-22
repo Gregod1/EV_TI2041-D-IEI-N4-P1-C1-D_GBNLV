@@ -16,9 +16,8 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from app1 import views as app1
+from app1 import views as html
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('vistagbnlv/',app1.site.urls),
 ]
